@@ -39,14 +39,20 @@
     /* The image used */
     background-image: url(img/1600x976.jpg);
     /* Full height */
-    width: 100%;
-    height: 100vh;
+    /* width: 100%;
+    height: 100vh; */
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
+    /* background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #464646;
+     */
+     background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-size: ;
+    background-position:center center;
 }
 .rawbutton {
     border-radius: 40px;
@@ -56,39 +62,33 @@
     color: white;
     background-color: transparent;
 }
-.heading {
+/* .heading {
     margin-top: 100px;
-}
-@media (min-width: 576px) and (max-width: 767px) {
-    .parallax {
-        background-image: url(img/768x468.jpg);
-    }
+} */
+@media (max-width: 576px) {
+
     .spacer1 {
-        height: 351px;
+        height: 400px;
     }
 }
 
-@media (min-width: 767px) and (max-width: 992px) {
-    .parallax {
-        background-image: url(img/768x468.jpg);
-    }
+@media (max-width: 576px) {
+
     .spacer1 {
-        height: 468px;
+        height: 500px;
     }
 }
-@media (min-width: 992px) {
-    .parallax {
-        background-image: url(img/992x604.jpg);
-    }
+
+@media (max-width: 767px) {
+
     .spacer1 {
-        height: 604px;
+        height: 670px;
     }
 }
-@media (min-width: 1599px) {
-    .parallax {
-        background-image: url(img/IMG_1322.JPG);
-    }
+
+@media (max-width: 960px) {
+
     .spacer1 {
-        height: 976px;
+        height: 900px;
     }
 }
