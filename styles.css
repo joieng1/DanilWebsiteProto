@@ -1,0 +1,93 @@
+#mainNavbar {
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: transparent
+}
+
+#mainNavbar .navbar-brand {
+    color: #ea1c2c;
+    font-size: 2rem;
+}
+#mainNavbar .nav-link {
+    color: black;
+    font-weight: 600;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #ea1c2c;
+}
+
+#mainNavbar.scrolled {
+    background: #ffffff;
+    transition: background 500ms;
+}
+/* test {
+    color: black;
+}
+#mainNavBar test.scrolled {
+    color: white;
+} */
+
+.spacer1 {
+    height: 976px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(0, 0, 0, 0.65); */
+}
+.parallax {
+    /* The image used */
+    background-image: url(img/1600x976.jpg);
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+}
+.rawbutton {
+    border-radius: 40px;
+    border-width: 4px;
+    padding: 14px 60px;
+    border-color: white;
+    color: white;
+    background-color: transparent;
+}
+.heading {
+    margin-top: 100px;
+}
+@media (max-width: 576px) {
+    .parallax {
+        background-image: url(img/768x468.jpg);
+    }
+    .spacer1 {
+        height: 351px;
+    }
+}
+
+@media (max-width: 767px) {
+    .parallax {
+        background-image: url(img/768x468.jpg);
+    }
+    .spacer1 {
+        height: 468px;
+    }
+}
+@media (max-width: 992px) {
+    .parallax {
+        background-image: url(img/992x604.jpg);
+    }
+    .spacer1 {
+        height: 604px;
+    }
+}
+@media (max-width: 1599px) {
+    .parallax {
+        background-image: url(img/IMG_1322.JPG);
+    }
+    .spacer1 {
+        height: 976px;
+    }
+}
